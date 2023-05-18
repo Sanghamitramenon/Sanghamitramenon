@@ -1,4 +1,4 @@
 #sanghamitra
 
-![sanghamitra](Screenshot from 2023-05-18 11-25-54.png)
+![Sanghamitramenon](Screenshot from 2023-05-18 11-25-54.png)
 
