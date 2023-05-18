@@ -1,4 +1,4 @@
+#sanghamitra
 
-
-![Uploading image.p]('Screenshot from 2023-05-18 11-25-54.png')
+![sanghamitra](Screenshot from 2023-05-18 11-25-54.png)
 
