@@ -1,4 +1,4 @@
 # sanghamitra
 
-![Sanghamitramenon](img.png)
+![Sanghamitramenon](picture.png)
 
