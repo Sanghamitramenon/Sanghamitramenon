@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact form</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(0deg, rgb(49, 88, 216),rgb(113, 7, 212));
+     background-repeat: no-repeat;
+     height: 100vh;
+    }
+    form{width: 100%;
+    text-align: center;}
+    input{
+        width: 490px; 
+        height: 30px;
+    
+    }
+</style>
+<body>
+    <h1 style="color:white;text-align:center;"> CONTACT FORM</h1>
+    <h2 style="color:white;text-align:center;">Got a question? we'd love to hear from you. Send us a message and we'll respond as soon as possible. </h2>
+    <form action="#" method="get">
+       <div> 
+<div style="text-align: left;padding-left: 30.5%;">
+    <br>
+ <label for="name" style="color: white;" >Name* </label>
+ </br>
+ </div>
+    <input type="text" id="name" name="name" size="50"/>
+    <div> 
+        <div style="text-align: left;padding-left: 30.5%;">
+<br>
+    <label for="email" style="color: white;">Email address* </label>
+</br>
+</div>
+    <input type="text" id="email" email="email" />
+    <div> 
+        <div style="text-align: left;padding-left: 30.5%;">
+<br>
+    <label for="message" style="color: white;">Message </label>
+</br>
+        </div>
+    <textarea name="message" id="message" cols="60" rows="10"></textarea>
+    <br>
+<input type="submit" value="send message" onclick="showAlert()" style="background-color: blue;color: white;">
+</div>
+</form>
+</body>
+<script>
+    function showAlert() {
+      alert("Submit button clicked!");
+    }
+
+</script>

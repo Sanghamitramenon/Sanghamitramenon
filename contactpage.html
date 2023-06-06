@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <title> contact page </title>
-    </head>
-    <p>
-        name: Sanghamitra Menon
-    </p>
-    <p>
-        address: Gudjekdwejk, Cdfnjbf, Kozfjhfhdfj
-    </p>
-    <p> phone number : 943665XXXX</p>
-    <p>
-        Qualification: Btech in Computer Science
-    </p>
+<head>
+    <title>CONTACT FORM</title>
+</head>
+<body style="background: linear-gradient(to bottom right, rgb(133, 46, 233),rgb(34, 128, 190)); "> 
+    <h1 style="color:white;text-align:center;"> CONTACT FORM</h1>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label" style="color:white;text-align:center;">name*</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" style="color:white;text-align:center;"required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label" style="color:white;text-align:center;">email address*</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label" style="color:white;text-align:center;">message*</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+</body>
+</html>
